@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: lambda-python-template
-        uses: wangziling100/LambdaPythonAction@v.0.0.10
+        uses: wangziling100/LambdaPythonAction@v.0.0.11
         env:
           GITHUB_WORKSPACE: github_workspace
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
