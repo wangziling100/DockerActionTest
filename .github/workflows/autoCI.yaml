@@ -1,4 +1,4 @@
-name: Node.js Auto CI
+name: Auto CICD
 
 on:
   push
