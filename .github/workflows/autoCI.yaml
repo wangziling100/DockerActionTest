@@ -12,8 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: lambda-python-template
-        uses: wangziling100/LambdaPythonAction@v0.0.1
+        uses: wangziling100/LambdaPythonAction@v0.0.2
         env:
+          GITHUB_WORKSPACE: /github_workspace
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
           AWS_DEFAULT_REGION: eu-central-1
