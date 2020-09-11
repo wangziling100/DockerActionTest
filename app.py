@@ -1,6 +1,6 @@
 import json
 import os
-import requests
+# import requests
 
 import boto3
 from aws_lambda_powertools import Logger, Metrics, Tracer
